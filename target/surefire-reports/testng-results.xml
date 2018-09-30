@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-30T14:31:49Z" name="Surefire suite" finished-at="2018-09-30T14:31:52Z" duration-ms="2589">
+    <groups>
+    </groups>
+    <test started-at="2018-09-30T14:31:49Z" name="Surefire test" finished-at="2018-09-30T14:31:52Z" duration-ms="2589">
+      <class name="com.webuitest.suite.NavigatePage2Test">
+        <test-method signature="careers()[pri:0, instance:com.webuitest.suite.NavigatePage2Test@7793b55d]" started-at="2018-09-30T07:31:50Z" name="careers" finished-at="2018-09-30T07:31:50Z" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careers -->
+        <test-method signature="contacts()[pri:0, instance:com.webuitest.suite.NavigatePage2Test@7793b55d]" started-at="2018-09-30T07:31:51Z" name="contacts" finished-at="2018-09-30T07:31:51Z" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacts -->
+      </class> <!-- com.webuitest.suite.NavigatePage2Test -->
+      <class name="com.webuitest.suite.NavigatePageTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.webuitest.suite.NavigatePageTest@4ab86b2a]" started-at="2018-09-30T07:31:44Z" name="setupTest" finished-at="2018-09-30T07:31:49Z" duration-ms="5714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="about()[pri:0, instance:com.webuitest.suite.NavigatePageTest@4ab86b2a]" started-at="2018-09-30T07:31:51Z" name="about" finished-at="2018-09-30T07:31:52Z" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- about -->
+        <test-method signature="news()[pri:0, instance:com.webuitest.suite.NavigatePageTest@4ab86b2a]" started-at="2018-09-30T07:31:52Z" name="news" finished-at="2018-09-30T07:31:52Z" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- news -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.webuitest.suite.NavigatePageTest@4ab86b2a]" started-at="2018-09-30T07:31:52Z" name="tearDownTest" finished-at="2018-09-30T07:31:52Z" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.webuitest.suite.NavigatePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

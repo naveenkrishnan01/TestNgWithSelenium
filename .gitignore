@@ -1,0 +1,7 @@
+.classpath
+.gradle
+.idea
+.allure
+*.iml
+.project
+allure-results
