@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.152" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.475" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
@@ -64,8 +64,8 @@
     <property name="java.class.version" value="54.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="careers" classname="com.webuitest.suite.NavigatePage2Test" time="0.945"/>
-  <testcase name="contacts" classname="com.webuitest.suite.NavigatePage2Test" time="0.423"/>
-  <testcase name="about" classname="com.webuitest.suite.NavigatePageTest" time="0.414"/>
-  <testcase name="news" classname="com.webuitest.suite.NavigatePageTest" time="0.391"/>
+  <testcase name="careers" classname="com.webuitest.suite.NavigatePage2Test" time="0.978"/>
+  <testcase name="contacts" classname="com.webuitest.suite.NavigatePage2Test" time="0.388"/>
+  <testcase name="about" classname="com.webuitest.suite.NavigatePageTest" time="0.419"/>
+  <testcase name="news" classname="com.webuitest.suite.NavigatePageTest" time="0.37"/>
 </testsuite>

@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public abstract class BaseTest  {
 
     public static WebDriver driver = null;
-    String baseUrl = "https://www.sidecarhealth.com/";
+    String baseUrl = "https://staging.sidecarhealth.com";
    // String  browser = "chrome";
     public static EventFiringWebDriver browser;
 

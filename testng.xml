@@ -9,7 +9,6 @@
 
         <test name="Regression suite 1" >
             <classes>
-                <class name="com.webuitest.suite.NavigatePageTest"/>
                 <class name="com.webuitest.suite.NavigatePage2Test"/>
             </classes>
         </test>

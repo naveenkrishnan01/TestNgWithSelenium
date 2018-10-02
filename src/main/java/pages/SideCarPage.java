@@ -7,19 +7,26 @@ import org.openqa.selenium.By;
 
 public class SideCarPage {
   WebDriver driver;
-    public static final By CLICK_CAREERS = By.xpath("//*[@class=\"header__navItem\"][3]/descendant::*[contains(text(), 'Careers')]");
-    public static final By CLICK_CONTACTS = By.xpath("//*[@class=\"header__navItem\"][4]/descendant::*[contains(text(), 'Contact')]");
+    public static final By INPUT_EMAIL = By.xpath("//*[@id=\"email\"]");
+    public static final By INPUT_PASSWORD =
+            By.xpath("//*[@id=\"password\"]");
+    public static final By LOGIN_BUTTON = By.xpath("//button[contains(text(), 'Login')]");
+
 
     public SideCarPage(WebDriver driver){
         this.driver=driver;
     }
 
-    public void clickCareers(){
-        driver.findElement(CLICK_CAREERS).click();
+    public void inputEmail(){
+        driver.findElement(INPUT_EMAIL).sendKeys("abcd");
     }
 
-    public void clickContacts(){
-        driver.findElement(CLICK_CONTACTS).click();
+    public void inputPassword() {
+        driver.findElement(INPUT_PASSWORD).sendKeys("Test1234!");
+    }
+
+    public void clickLoginButton(){
+        driver.findElement(LOGIN_BUTTON).click();
     }
 
 }
