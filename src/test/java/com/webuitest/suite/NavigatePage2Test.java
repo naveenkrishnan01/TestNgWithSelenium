@@ -5,7 +5,7 @@ import io.qameta.allure.Feature;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.SideCarPage;
+import pages.XpediaPage;
 import ru.yandex.qatools.allure.annotations.Step;
 import ru.yandex.qatools.allure.annotations.Stories;
 
@@ -17,21 +17,21 @@ import ru.yandex.qatools.allure.annotations.Stories;
 public class NavigatePage2Test extends BaseTest {
 
     @Test()
-    @Stories("click careers")
-    @Description("check career page")
+    @Stories("click flights")
+    @Description("navigate to flight page")
     @Step("case1")
     public void careers() {
-        SideCarPage input_email = PageFactory.initElements(browser,  SideCarPage.class);
-        input_email.inputEmail();
+        XpediaPage click_flight = PageFactory.initElements(browser,  XpediaPage.class);
+         click_flight.clickFlights();
     }
 
     @Test()
-    @Stories("click contacts")
-    @Description("click contact page")
+    @Stories("enter origin")
+    @Description("Enter Flight Origin")
     @Step("case2")
-    public void contacts() {
-        SideCarPage input_password = PageFactory.initElements(browser, SideCarPage.class);
-        input_password.inputPassword();
+    public void enterOrigin() {
+        XpediaPage enter_origin = PageFactory.initElements(browser, XpediaPage.class);
+        enter_origin.enterOriginFlight();
     }
 
 
