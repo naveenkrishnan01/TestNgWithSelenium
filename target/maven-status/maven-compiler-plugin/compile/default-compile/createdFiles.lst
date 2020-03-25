@@ -1,2 +1,3 @@
-pages/XpediaFrontPage.class
-pages/SideCarPage.class
+pages/DisneyLogin$1.class
+pages/DisneyLogin.class
+pages/DisneySignup.class

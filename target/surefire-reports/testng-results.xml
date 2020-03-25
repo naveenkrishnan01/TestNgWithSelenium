@@ -1,39 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-10-01T19:05:24Z" name="Surefire suite" finished-at="2018-10-01T19:05:26Z" duration-ms="2497">
+  <suite name="Surefire suite" duration-ms="95271" started-at="2020-03-25T19:22:22Z" finished-at="2020-03-25T19:23:57Z">
     <groups>
     </groups>
-    <test started-at="2018-10-01T19:05:24Z" name="Surefire test" finished-at="2018-10-01T19:05:26Z" duration-ms="2497">
-      <class name="com.webuitest.suite.NavigatePage2Test">
-        <test-method signature="careers()[pri:0, instance:com.webuitest.suite.NavigatePage2Test@77ec9fdb]" started-at="2018-10-01T12:05:24Z" name="careers" finished-at="2018-10-01T12:05:25Z" duration-ms="980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- careers -->
-        <test-method signature="contacts()[pri:0, instance:com.webuitest.suite.NavigatePage2Test@77ec9fdb]" started-at="2018-10-01T12:05:25Z" name="contacts" finished-at="2018-10-01T12:05:25Z" duration-ms="386" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contacts -->
-      </class> <!-- com.webuitest.suite.NavigatePage2Test -->
-      <class name="com.webuitest.suite.NavigatePageTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.webuitest.suite.NavigatePageTest@72b10258]" started-at="2018-10-01T12:05:19Z" name="setupTest" finished-at="2018-10-01T12:05:24Z" duration-ms="4729" status="PASS">
+    <test name="Surefire test" duration-ms="95271" started-at="2020-03-25T19:22:22Z" finished-at="2020-03-25T19:23:57Z">
+      <class name="com.webuitest.suite.DisneySignupTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.webuitest.suite.DisneySignupTest@3a54638b]" name="setupTest" is-config="true" duration-ms="15135" started-at="2020-03-25T12:22:07Z" finished-at="2020-03-25T12:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="about()[pri:0, instance:com.webuitest.suite.NavigatePageTest@72b10258]" started-at="2018-10-01T12:05:25Z" name="about" finished-at="2018-10-01T12:05:26Z" duration-ms="418" status="PASS">
+        <test-method status="PASS" signature="Signup()[pri:1, instance:com.webuitest.suite.DisneySignupTest@3a54638b]" name="Signup" duration-ms="42757" started-at="2020-03-25T12:22:22Z" finished-at="2020-03-25T12:23:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- about -->
-        <test-method signature="news()[pri:0, instance:com.webuitest.suite.NavigatePageTest@72b10258]" started-at="2018-10-01T12:05:26Z" name="news" finished-at="2018-10-01T12:05:26Z" duration-ms="374" status="PASS">
+        </test-method> <!-- Signup -->
+        <test-method status="PASS" signature="Login()[pri:2, instance:com.webuitest.suite.DisneySignupTest@3a54638b]" name="Login" duration-ms="51710" started-at="2020-03-25T12:23:05Z" finished-at="2020-03-25T12:23:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- news -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.webuitest.suite.NavigatePageTest@72b10258]" started-at="2018-10-01T12:05:26Z" name="tearDownTest" finished-at="2018-10-01T12:05:26Z" duration-ms="105" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.webuitest.suite.DisneySignupTest@3a54638b]" name="tearDownTest" is-config="true" duration-ms="326" started-at="2020-03-25T12:23:58Z" finished-at="2020-03-25T12:23:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- com.webuitest.suite.NavigatePageTest -->
+      </class> <!-- com.webuitest.suite.DisneySignupTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

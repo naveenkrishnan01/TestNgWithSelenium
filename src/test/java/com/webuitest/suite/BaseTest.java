@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public abstract class BaseTest  {
 
     public static WebDriver driver = null;
-    String baseUrl = "https://www.expedia.com/";
+    String baseUrl = "https://www.disney.com/";
    // String  browser = "chrome";
     public static EventFiringWebDriver browser;
 
@@ -28,10 +28,10 @@ public abstract class BaseTest  {
 
 
         driver = new ChromeDriver();
-         //   driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
             driver.get(baseUrl);
+     //      driver.manage().window().maximize();
         browser = new EventFiringWebDriver(driver);
         browser.register(listen);
 
