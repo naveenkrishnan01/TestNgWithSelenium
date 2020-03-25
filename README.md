@@ -1,7 +1,7 @@
 ### Mac setup for Java/Chromedriver
     
     open ~/.bash_profile using nano or vim command
-    Add the follwoing lines
+    Add the following lines
     
     
     export M2_HOME=/Users/yourname/apache-maven-3.5.4
