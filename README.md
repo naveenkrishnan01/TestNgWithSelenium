@@ -31,6 +31,10 @@
  - For login read the username from the csv file
  - Go to the page and verify the info on the screen and info on the file matches
  
+ ### Project Implementation
+ 
+ This project is implemented using Page Object Model
+ 
  ### Run the project
  
  Download the project into local from this repo
