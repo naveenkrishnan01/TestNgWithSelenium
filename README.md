@@ -35,6 +35,13 @@
  
  This project is implemented using Page Object Model
  
+ ### Watch The Recording Of The Automation Test
+ 
+- This automation framework was tested and verified
+- Please download the file DisneyTest.mov file on to your machine
+- This file shows the execution of the automation for the website
+- TestNgWithSelenium/DisneyTest.mov is the file that needs to be downloaded
+ 
  ### Run the project
  
  Download the project into local from this repo
